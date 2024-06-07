@@ -781,7 +781,7 @@ const defaultOptions = {
 };
 {
   defaultOptions.defaultUrl = {
-    value: "KryosLifetimeCollection.pdf",
+    value: "web/KryosLifetimeCollection.pdf",
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
