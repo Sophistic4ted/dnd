@@ -1422,8 +1422,8 @@ class BasePreferences {
     pageColorsForeground: "CanvasText",
     pdfBugEnabled: false,
     sidebarViewOnLoad: -1,
-    scrollModeOnLoad: -1,
-    spreadModeOnLoad: -1,
+    scrollModeOnLoad: ScrollMode.PAGE,
+    spreadModeOnLoad: SpreadMode.EVEN,
     textLayerMode: 1,
     viewOnLoad: 0,
     disableAutoFetch: false,
@@ -14435,5 +14435,3 @@ var __webpack_exports__PDFViewerApplication = __webpack_exports__.PDFViewerAppli
 var __webpack_exports__PDFViewerApplicationConstants = __webpack_exports__.PDFViewerApplicationConstants;
 var __webpack_exports__PDFViewerApplicationOptions = __webpack_exports__.PDFViewerApplicationOptions;
 export { __webpack_exports__PDFViewerApplication as PDFViewerApplication, __webpack_exports__PDFViewerApplicationConstants as PDFViewerApplicationConstants, __webpack_exports__PDFViewerApplicationOptions as PDFViewerApplicationOptions };
-
-//# sourceMappingURL=viewer.mjs.map
